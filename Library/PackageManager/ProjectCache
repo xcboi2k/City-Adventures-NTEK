@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637962133838205398
-    m_Hash: 1973154897
+      ticks: 637962179731282887
+    m_Hash: 2593603777
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/GITHUB Cloned Repositories/City-Adventures-NTEK/Packages
-m_EditorVersion: 2021.3.6f1 (7da38d85baf6)
+m_EditorVersion: 2021.3.7f1 (24e8595d6d43)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.17.1
   testable: 0
@@ -106,8 +106,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.18
-    - 1.17.0
     - 1.17.1
     - 1.17.2
     - 2.0.0-preview.6
@@ -120,13 +118,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.18
+    verified: 1.17.2
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.4.2
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -165,7 +163,7 @@ m_ResolvedPackages:
     revision: 2346af88036ac7256d898e0bb536f60220ce6e18
     path: 
   unityLifecycle:
-    version: 1.15.18
+    version: 1.17.1
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -960,7 +958,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -3053,12 +3051,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.services.core@1.4.0
+- packageId: com.unity.services.core@1.4.2
   testable: 0
   isDirectDependency: 0
-  version: 1.4.0
+  version: 1.4.2
   source: 1
-  resolvedPath: D:\GITHUB Cloned Repositories\City-Adventures-NTEK\Library\PackageCache\com.unity.services.core@1.4.0
+  resolvedPath: D:\GITHUB Cloned Repositories\City-Adventures-NTEK\Library\PackageCache\com.unity.services.core@1.4.2
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3093,8 +3091,6 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     compatible:
-    - 1.4.0
-    - 1.4.1
     - 1.4.2
     - 1.4.3
     verified: 1.4.3
@@ -3122,16 +3118,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637871962570000000
+  datePublishedTicks: 637919618520000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 92e281deb97a96f7b32464b6874de73a17c140ff
+    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
     path: 
   unityLifecycle:
-    version: 1.4.0
+    version: 1.4.2
     nextVersion: 
 - packageId: com.unity.settings-manager@1.0.3
   testable: 0
@@ -3204,7 +3200,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 13.0.1.
 
