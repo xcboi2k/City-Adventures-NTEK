@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/AI/Scripts/CarAI Script/CarAIScript.cs"
+"Assets/AI/Scripts/CarAI Script/NextWaypointScript.cs"
 "Assets/AI/Scripts/CarAI Script/SpawnCarScript.cs"
 "Assets/AI/Scripts/CarControllerScript.cs"
 "Assets/AI/Scripts/CarSpawnerScript.cs"

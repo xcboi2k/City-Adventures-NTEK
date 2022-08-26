@@ -42,10 +42,11 @@
      <Compile Include="Assets\Car\Scripts\PlayerCarScript.cs" />
      <Compile Include="Assets\Walking\Scripts\CharacterIK.cs" />
      <Compile Include="Assets\Walking\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\AI\Scripts\CarAI Script\CarAIScript.cs" />
      <Compile Include="Assets\AI\Scripts\CarSpawnerScript.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\cameraFollow.cs" />
-     <Compile Include="Assets\AI\Scripts\CarAI Script\CarAIScript.cs" />
      <Compile Include="Assets\AI\Scripts\CarAI Script\SpawnCarScript.cs" />
+     <Compile Include="Assets\AI\Scripts\CarAI Script\NextWaypointScript.cs" />
      <None Include="Assets\Packages\Simple_Town\Materials\2_sided.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -22,6 +22,8 @@ public class SpawnCarScript : MonoBehaviour
     void Spawn(){
         for (int i=0; i<transform.childCount; i++){
             ram = Random.Range(0,cars.Length);
+            cars[ram].GetComponent<CarAIScript>().currentTrafficRoute = this.gameObject;
+            cars[ram].GetComponent<CarAIScript>().currentWaypointNumber = i;
             Instantiate(cars[ram], transform.GetChild(i).transform.position, transform.GetChild(i).transform.rotation);
         }
     }
