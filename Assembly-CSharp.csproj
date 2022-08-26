@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AI\Scripts\CarControllerScript.cs" />
-     <Compile Include="Assets\AI\Scripts\CarSpawnerScript.cs" />
-     <Compile Include="Assets\Walking\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerInputCarScript.cs" />
-     <Compile Include="Assets\Car\Scripts\PlayerCarScript.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerCarCameraScript.cs" />
+     <Compile Include="Assets\AI\Scripts\CarControllerScript.cs" />
+     <Compile Include="Assets\Car\Scripts\PlayerCarScript.cs" />
      <Compile Include="Assets\Walking\Scripts\CharacterIK.cs" />
+     <Compile Include="Assets\Walking\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\AI\Scripts\CarSpawnerScript.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\cameraFollow.cs" />
      <None Include="Assets\Packages\Simple_Town\Materials\2_sided.shader" />
     <Reference Include="UnityEngine">
