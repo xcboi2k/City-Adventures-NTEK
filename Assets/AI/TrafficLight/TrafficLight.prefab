@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4749193445992786141}
   - component: {fileID: 7594741209424831125}
   - component: {fileID: 2960778092204133251}
-  - component: {fileID: 3076561238039131884}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -62,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b86fe21294576ee44a11b64d1f6a8a9b, type: 2}
+  - {fileID: 2100000, guid: 85cc01f5f4e010f46bf48c0a077e8667, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &3076561238039131884
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3675089213534699131}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4500203713159439999
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +94,7 @@ GameObject:
   - component: {fileID: 4500203713159543391}
   - component: {fileID: 4500203713162443391}
   - component: {fileID: 4500203713161443519}
+  - component: {fileID: 106960303588496363}
   m_Layer: 0
   m_Name: TrafficLight
   m_TagString: Untagged
@@ -183,6 +170,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &106960303588496363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4500203713159439999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32dd5598a0cb8154e8621798daa4c53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RedLight: {fileID: 8315422822281989564}
+  GreenLight: {fileID: 2960778092204133251}
 --- !u!1 &5214695756297257011
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +195,6 @@ GameObject:
   - component: {fileID: 6422423181330752060}
   - component: {fileID: 1910074906119142458}
   - component: {fileID: 22700575077695993}
-  - component: {fileID: 1493210688500609588}
   m_Layer: 0
   m_Name: Yellow
   m_TagString: Untagged
@@ -245,7 +245,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47f5d803168757c4fae6aa8fd72330e0, type: 2}
+  - {fileID: 2100000, guid: 85cc01f5f4e010f46bf48c0a077e8667, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -267,19 +267,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1493210688500609588
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5214695756297257011}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7174163561218318606
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +278,6 @@ GameObject:
   - component: {fileID: 3832274771890471429}
   - component: {fileID: 5968727983497053567}
   - component: {fileID: 8315422822281989564}
-  - component: {fileID: 870896570378099281}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -342,7 +328,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 916127851d2fda944ae335c763cb3721, type: 2}
+  - {fileID: 2100000, guid: 85cc01f5f4e010f46bf48c0a077e8667, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -364,16 +350,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &870896570378099281
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7174163561218318606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}

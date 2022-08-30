@@ -15,7 +15,7 @@ E:/Unity Trials/City-Adventures-NTEK
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-1027
+13151
 Successfully changed project path to: E:/Unity Trials/City-Adventures-NTEK
 E:/Unity Trials/City-Adventures-NTEK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,3 +47,1907 @@ E:/Unity Trials/City-Adventures-NTEK
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 129.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Trials/City-Adventures-NTEK/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R5 M230 (ID=0x666f)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   16.300.2101.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011207 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 141.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Trials\City-Adventures-NTEK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Trials\City-Adventures-NTEK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.446 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6447ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (5960ms)
+			LoadAssemblies (3397ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1104ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (1216ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3848.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 6.217500 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.364100 ms MarkObjects: 5.311600 ms  DeleteObjects: 0.168500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26144.117893 seconds.
+  path: Assets/Prefabs/4-Way Intersection.prefab
+  artifactKey: Guid(93c5e33802646794d8a5fe87b388f0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/4-Way Intersection.prefab using Guid(93c5e33802646794d8a5fe87b388f0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5803341f1c088abf2eb7cf9a8a597595') in 0.938342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204890 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50084dcc9acfabdcbc320796d881316') in 0.116623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/4-Way Intersection.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/4-Way Intersection.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc58c17019affc23150a46a7c2cbe79') in 0.044182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.781366 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caea49e280a9db968076398b728a80a') in 0.115997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.002052 seconds.
+  path: Assets/Prefabs/3-Way Intersection.prefab
+  artifactKey: Guid(9153e4441dc71c24e86fc6b013450b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3-Way Intersection.prefab using Guid(9153e4441dc71c24e86fc6b013450b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a058bd5feb0687a5f8c2e78c816ceba') in 0.063619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Player-Car.prefab
+  artifactKey: Guid(b4dc689686f69264194fbd0744722a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player-Car.prefab using Guid(b4dc689686f69264194fbd0744722a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6160f3065c186eeff5257ade9904194') in 0.248789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.821214 seconds.
+  path: Assets/Packages/Simple_Town/Prefabs/road_1.prefab
+  artifactKey: Guid(61f04b165b10840488529eee8e2f1d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Simple_Town/Prefabs/road_1.prefab using Guid(61f04b165b10840488529eee8e2f1d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9388761c84481fafbc0deae00b675080') in 0.140351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Packages/Simple_Town/Prefabs/road_3.prefab
+  artifactKey: Guid(5834d6f4a49c0cb4497da4a778e7b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Simple_Town/Prefabs/road_3.prefab using Guid(5834d6f4a49c0cb4497da4a778e7b4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae86222c7d58be3e5156b48e70d98f3f') in 0.098511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Packages/Simple_Town/Prefabs/road_4.prefab
+  artifactKey: Guid(c667f244a1282e146bb962f6d16424db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Simple_Town/Prefabs/road_4.prefab using Guid(c667f244a1282e146bb962f6d16424db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719a61a12f2bc0ef49d09987712fd65a') in 0.101334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Packages/Simple_Town/Prefabs/road_5.prefab
+  artifactKey: Guid(28293da93e8697547a298a86d6ab7c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Simple_Town/Prefabs/road_5.prefab using Guid(28293da93e8697547a298a86d6ab7c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5928c5b60750143e05eb808320c65d50') in 0.274036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.020365 seconds.
+  path: Assets/AI/Prefabs/AI-Car.prefab
+  artifactKey: Guid(3b251d6f037090e448ea00992d374c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Prefabs/AI-Car.prefab using Guid(3b251d6f037090e448ea00992d374c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f432d0c1d17937df60002ad32522662') in 1.408361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AI/Prefabs/Sedan 1.prefab
+  artifactKey: Guid(e720224bcc525fc4c8ba1df43bfe21c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Prefabs/Sedan 1.prefab using Guid(e720224bcc525fc4c8ba1df43bfe21c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3a8751910e788f98bdcfeeedaccbc') in 2.498716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.321392 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/road_1.prefab
+  artifactKey: Guid(022285d5a03919d48b90bd85f6d27e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/road_1.prefab using Guid(022285d5a03919d48b90bd85f6d27e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f820ff1ffb1434184c820936be223352') in 0.030302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/road_5.prefab
+  artifactKey: Guid(ae30c7a400b05184bb98be43f91caca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/road_5.prefab using Guid(ae30c7a400b05184bb98be43f91caca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50a4e38bb26d5259ba6153586d9a092') in 0.032040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/road_4.prefab
+  artifactKey: Guid(6b0e8ee486fa57d4cb12b9664d7c2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/road_4.prefab using Guid(6b0e8ee486fa57d4cb12b9664d7c2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a18157e54b34fe2c59456f33df6fcb') in 0.147399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.681595 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Edge.prefab
+  artifactKey: Guid(022285d5a03919d48b90bd85f6d27e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Edge.prefab using Guid(022285d5a03919d48b90bd85f6d27e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454bef84c9d69e13dd7ee8bbf2229920') in 0.160112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.867113 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Straight.prefab
+  artifactKey: Guid(6b0e8ee486fa57d4cb12b9664d7c2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Straight.prefab using Guid(6b0e8ee486fa57d4cb12b9664d7c2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c289bc22294aba1d071eec72a0b68fe') in 0.027091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.667347 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Corner.prefab
+  artifactKey: Guid(ae30c7a400b05184bb98be43f91caca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Corner.prefab using Guid(ae30c7a400b05184bb98be43f91caca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b48156c35bd12d5ebc9fd20c55fa0a') in 0.061619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.337937 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533843c2caee78b02e6bc15aa59a4c64') in 0.024254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.040105 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3621097677dbbe826584197911e25a') in 0.059212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.119548 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96fc60df1f444d7681ba31a770e7f59') in 0.026979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.746772 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cff574d608a8c3f024ab3f75d45dbf9') in 0.145478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.005748 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c5c4a34128d2dbb6d2aa5749726c6f') in 0.042062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.227313 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159aeea5278d57986c5c63b6a0cac81') in 0.038866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.026745 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b778569540a49b213bf20222afd95e0') in 0.083115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.031461 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e44b05d77b235b5994635b2c65cfa4') in 0.080587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.891082 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243d448f648275f33ce1c116ceea0510') in 0.057498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.629867 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d76a18b050ed45a7460633b91fedfcf') in 0.255584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.854526 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fc9c66f2538d1bd6db245c1d44bbdd') in 0.121374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.877279 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3001f712d5207b78aa6ffd084a149bb4') in 0.039159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.406573 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a76f49c899d52f5e73482f3f018e9d') in 0.132448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.021824 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f9bac4fd099a80f8ba08661a555a09') in 0.101271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.254427 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5172cd8419f514b5711cbeda0eb0c8') in 0.141119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.396405 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2495d17baf7d30eaf7e9e74ea7e14364') in 0.029113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.271478 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274eac53e82a21e6755ab63019633a82') in 0.082431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.733491 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaaee4239101950c0dff05ac49954d0') in 0.171428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.523191 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22d2b27d88d9dd0b170c624717882be') in 0.167436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.526273 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e3fc33682ea688baa7bd9297d05626') in 0.248217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.515629 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1654fb2b27da767744e4650d33e510a2') in 0.054897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.132960 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccc32d34c9cdee9f37ee318c5d776ad') in 0.270519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.312485 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecfd6ba59046498b49bc3b07d78b81') in 0.030470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.699291 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1460e5a2fe0bd4593377252a31fa2ab') in 0.036420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.297817 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d01d2acf50569ba15bc3e30cbf4aab') in 0.035360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.994322 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175fff69af409207a671aa92296cba0f') in 0.083811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.162603 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8117c2d42787f9f2f8502538ca51d') in 0.047752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.385377 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a28a7fa1badb87e7f3cc40ffddb6b6d') in 0.026620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.422857 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238ab4528be23f21030ce599db256f4f') in 0.027219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.550421 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f5ec055422ca70ba30a47c1a8be226') in 0.091607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.830895 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7edec90de1f042c76b5443469db0e1e') in 0.025667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.913475 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e00736c010fb3a564db00cc14903d86') in 0.033722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.926053 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26af8bdedc73232c48d0633739174968') in 0.025699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.546631 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c5fc2f10f7cca8b661e1938661c9df') in 0.079311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.329701 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b529c9768197b8e03e9e9fa5e23266') in 0.034514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.893066 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df188b36607f5aa53e9f936549a9531a') in 0.043139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.293444 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b093e92d05dec312ffc12dbbbe58c2') in 0.030065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.472919 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3e871f7eb16ed43a738728801a2a39') in 0.856424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.861474 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa900cda64bb461a98b03c8e8c0b7c7') in 0.026187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.088145 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cff90aba5e3a715712401241bda26e') in 0.058225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.165840 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d661c9f710d5f3f46cb9249629767e') in 0.087727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.572844 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bf7efc89bb241bcff7404e3ea143d0') in 0.138562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.733915 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed1a17c18070fb8cadf14d7a4711eb3') in 0.073494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.236437 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da51a820722bae8ac26529d3990ebe95') in 0.040796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.520326 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de96ecc2808bf61c674bac92a5e1096a') in 0.121159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.150226 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf0aefbfad6781d73e3f1b01e84c3cc') in 0.033992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.309998 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3733e2c7d946fb8ae6c918c62c6ff') in 0.085645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.832820 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45217a07e80177fb2cb474932765758') in 0.034682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.502988 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3cb4aabcc04a54ec3051beaedc9ae8') in 0.027160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.136411 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367f51336aa4a79ccade2997eaf69820') in 0.666032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.206163 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de084dfe0af5fcf3cb089075e43f0ad') in 0.034521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.635513 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b56fcdba2ab35a5a8869be90320f75') in 0.108735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.276494 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f95113f5c780d4a2c0656e6b0e51ac') in 0.032300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.233186 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab00534daccfcd5905f04ed6d387d9e') in 0.030761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.128284 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a351bfbc674857ba8b4144e93481c98') in 0.036906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.466952 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74626be68ea225e5223e3b71929f50e4') in 0.036801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.531404 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e42c9e35f8a444c42a72d15a1ca2c') in 0.159934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.433745 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a736734c9a59a233a60ab6feea6a804') in 0.805400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.843993 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4cba78831972424d296b448fa287df') in 1.234785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.986444 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187edbbb3f38fbd653aa68e3ea4b7388') in 0.156493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.512480 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5484ac7088b847c2d79db3e9a4464eb5') in 0.173113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.059511 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779bf2f515b80ef0cc69d5cc82b95e21') in 0.106804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.829009 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1f105ae885f419c57ef6be0a4c849c') in 0.034809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.180020 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26a2e3004d8cada30dd3d25d4e7fe68') in 0.161737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.147757 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f968495c9aefbd8d6f5a8a3b0565ea') in 0.140169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.882456 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ba124b67152cb4c2670bfec019645') in 0.032166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.663103 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722151624f60cf0f845ceed6c1fbf4ad') in 0.108188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.119071 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3643a45569ddaf418d93837f89f3ad') in 0.379049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.277713 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee96bbcbea0477fd544172022fb8974d') in 0.127720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.694195 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eb6c4103cb31ebf126d98a6c933e5d') in 0.178428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.343954 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faab3e18767bba64e232481902d8a811') in 0.059929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.142333 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9dbb86cbf1ae3f2fd669a6e7487564') in 0.191225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.073173 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd3fc12ba53854accc220d8234b0dd3') in 0.059668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.344040 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bdae26884766d0bc84b904f6b79006') in 0.037009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.775825 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0dfbc29868d9383fd37b4c8ab82ee3') in 0.091768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.818931 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f39cac12eda14c4a9d3d9a8d58252de') in 0.063383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.672581 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a72cf97acccf465322c69f94ee7530d') in 0.438802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.551928 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c8d9002c3c6840ab5785d7a7c0ccc') in 0.046978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.875238 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab5ad5e41f4009b0d95ea732f2a16df') in 0.104335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.683455 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a928ae01480207063f3c688e18eac471') in 0.027474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.767125 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21879f539d9134234c2a5485440e3682') in 0.035891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.391159 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a55c38271a1fb55d90a16912e73de2') in 0.031458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.914131 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40971c6c1f941c4fa4e99aeef3f9474f') in 0.042541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.809372 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653f9a55b10c6d1d0b052f8cd0424353') in 0.052272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.934874 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d93e29fb8687363161c3c82edcd09') in 0.108337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.099590 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92e536af1390d4b5f210d9285e46915') in 0.034669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.583296 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a28811a1548eecd15517104a319d6') in 0.030394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.155702 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30dad510e9e2cad69d5bf0c975efc8') in 0.034032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.467269 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da4e64491e42f8d61a19912d40dc37') in 0.049834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.642409 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6bb7b84c23402a66b34ce64c369f2f') in 0.040485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.537216 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863c30995ff7320281bbe52a74689a1a') in 0.029319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.556623 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd0309418dab5b6ff68bd748894d0b3') in 0.287585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.067373 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dbe89d9a3277c5b0f81b54baf3cd72') in 0.050187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.092628 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fef8ddcf5bee8cd643fdc3f56c79998') in 0.094104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.435212 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57919c361e5f89cd6fb03f0aa8117e') in 0.101499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.504040 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9808f5f10f5210784e64eba3ce2b4') in 0.027704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.251043 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e08c02958091ce3c767d8e8867baa7') in 0.066862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.409272 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4343f6181389b36ededda011f6a03f3f') in 0.036518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.855819 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6597f089cac9b219af4dd768eab17d0b') in 0.116810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.469061 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516403d93a5aeee85b1cafc0e29aeed') in 0.033012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.971887 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7522ea8281dc02e2887e0ad42352f48') in 0.198869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.328941 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a4ce1c79ef9155eb3899c55ffeea0c') in 0.026060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.323116 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa02c88975105713f9380a5f8c624382') in 0.046372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.996984 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3103f2d3f62e90da72ab8504fe6cefc') in 0.051564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.390871 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b661eb5ca329f28eebe1541755bb1bf') in 0.028428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.785040 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f45560b71b2dd25700e2a3f260631e') in 0.205676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.924963 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba707ad547d6240d291af3b814598613') in 0.042226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.786810 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e58dbae15011becbdf6b29449699211') in 0.092425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.488466 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76096d7b5dc3f32056273d5f9638c16f') in 0.057567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.995724 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d49b82f26b4e71244443b1b28ae3ddc') in 0.039405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.810882 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3907f75a108b855e9ec829daf0496acd') in 0.075673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.921573 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa4d6e7004c0483fb2cdcdc01d2936d') in 0.029669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.385199 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff71338ad204bfe571b78ec8eaf80df') in 0.050871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.320822 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c3bd660e997e0a09d43fd8cf282877') in 0.165177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.181211 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809c104d73b3e1dfc569168d8a0a0b2f') in 0.267539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.220686 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035aaef94c737acf49936d3594ae3c39') in 0.043241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.206162 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1489b6e48edbbe102bfcc39717c13b') in 0.032117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.388986 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b393a0c4b1f0e8c2ab9c98c6488253') in 0.108475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.684030 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc357f814539db35c69772307d71a851') in 0.076851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.484650 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce90fbab26a9ea6f430f091897157e72') in 0.165557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.911110 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657a22c6ab6e14da54190280889b4342') in 0.045413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.013742 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce1c53f483e19cf6e9ce234f3a41768') in 0.031204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.816892 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786103fb210971af6eae17f6ae37b727') in 0.042509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.025955 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e817137b69c4c0efa4f939ffbb788b0') in 0.038142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.272448 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acec60b82404c7d31e2118a9b9958b93') in 0.034809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.867809 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfff96bc54bc8d1c328327ae18bc89a') in 0.039521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.486357 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0968d323b934c7db1083d671befe98') in 0.034751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.233729 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f33718d30967d3bc7562e4adc741e57') in 0.204171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.502656 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5265949960a91b73cda3371a06a9401') in 0.111220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.132344 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408befd5495b87e15dd4ead61e8f87bf') in 0.111699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.139809 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203826fb3ab648e4cd9ba37b964fdee') in 0.134511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.530846 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df6441b4f2d92cc21f2fc7b254351df') in 0.473154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.076354 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48c786f8579caa9cdd52a92ca009672') in 0.032317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.959373 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad4b0ce4cc1761223059adbc4155b48') in 0.041775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.633418 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46d637c6777aed81786c051daa2045') in 0.028365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.087870 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1731c79f959d0e87696a12ecacdba5b') in 0.097512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.308211 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b0db77eec57c2dc3680a8f0830e848') in 0.109562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.016745 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295fe376c90e8d396d64e0c8462255b8') in 0.066085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.355691 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d7e9c0d745a341f7a747e31bf5c1f7') in 0.047277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.190939 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3320642d0550ad8df7a60ae05022e6') in 0.179271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.458391 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74fc76790ee309b3f31ea60827431d7') in 0.035027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.585017 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8550ed0efba1b76d5cf9bef1bd5b43db') in 0.088900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.407100 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1010c776b6df24bea4ad4f78a9a2fc09') in 0.050340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.150008 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs
+  artifactKey: Guid(546f3df9f0e6c664ba54ab0775f8599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs using Guid(546f3df9f0e6c664ba54ab0775f8599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2859e85f492480d4900d51d786e58d7f') in 0.003125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.851451 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf486403fcd316d0f83231c9a883f34') in 0.077696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.788489 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631ac6836b04d72fe2fe80de018324fb') in 0.056674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.736628 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5769cb614df3153c25260b0734f7e6') in 0.098861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.533460 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b1dc4d0709f3ca18f4e6d90e00f5f7') in 0.027453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.877476 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63c63190e8c1235ffbf94c120cad65d') in 0.033718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.455340 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b4600520d966b24c0b43d7e9f2b2a3') in 0.043966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.573638 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb0115a22f1ad39afd299714887e688') in 0.042203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.552978 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acdf5be3ba25c0fbc66d100cfeccb51') in 0.041015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.429091 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda69bf3b470f731fc269ceaf7c63711') in 0.042935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.444252 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6316b6bae90aaacdda4913f4c596c08') in 0.046103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.464308 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087bd248cdd06c31788cc69db839fa2e') in 0.078694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.879270 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dbd1e4daada3494a136afd993f0c10') in 0.178457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.418683 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242e2bad9f8b4a600c5a24bc9c350c8') in 0.044311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.951899 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed6cc3cb822243ae4f39e736592cff2') in 0.130184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.557437 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4358ca4aa8bca573781957145e987071') in 0.041310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.272121 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59ffd09c6cc019369d06a5f685df7ba') in 0.032828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.357411 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26fa7947af14320836d840da7f7737') in 0.044264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.403050 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abcc78d437053ea579889377e4f0073') in 0.111215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.336447 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b737b635a4be6d60a0ed104467b2653') in 0.042302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.801693 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e11aac5852b3be653407d44eeadf39d') in 0.137817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.760616 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc512884fb6841db9a5f7456f5515b3a') in 0.105398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.834811 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcfe660e1135033c6da722cb8c14337') in 0.076668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.033012 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb17e95266992a99ea5f297cf5cb5b0b') in 0.052111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.454315 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c666c87e557913e481cb072826dd3fe7') in 0.065514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.483589 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829ef9597a15dc825bbd54fce78dc752') in 0.043431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.958091 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c22d2d9d61634d82759714468ceb7d') in 0.120255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.983032 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f9437d12861c5ab48ee2f108b4a5b5') in 0.029777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.310260 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21c8fdc09bf476dac76145bcb97ab3e') in 0.152888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.131995 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f1be613e9cdb78430b30e02ce3b26') in 0.074626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.007921 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a1ca082a4775fa482ea03b3a993b7') in 0.089307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.739611 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b161c78d5bd8872a8f15ec7dbbb1d1da') in 0.047954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403842 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffdc2243d17d77eb8a07913ea4515e2') in 0.056324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.668560 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0f3133f87e5920a5ec7c2f89524c02') in 0.206103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.055403 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504e0e7fcfc317a3aeb1cae761c63dee') in 0.215599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.254124 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd956ca25968ed71561168672b40f1f') in 0.031709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.023552 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b50747857202cf92c80ddfe42ba491d') in 0.109264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.974002 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a391de884c267a1eb998c24d34a45012') in 0.044354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.658721 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6253a86e097de8dfd6dffedd35d8f6dc') in 0.034739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.295468 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220f819a299267b038dab43a06ee6e50') in 0.097408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.714210 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d80da3c57526dcdf07c8a71d89d73a8') in 0.039032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.677538 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb74bfbce601d38dc872f7fd3ec72680') in 0.215190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.110506 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac069b5289e1b362a43da67ec060f3') in 0.038201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.129388 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56a42305acb6d7050f508826c02083c') in 0.043911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.049043 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6e71b884225786dfd289b9b78e6da7') in 0.082308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.747603 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf5084d2a15015649de6f6e5fd984d4') in 0.045804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.881286 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c1982a9586a7edc72dcfee4a4a12e3') in 0.052503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.950897 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac0ad6dd3191a28e75b0eafb6be848f') in 0.042704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.732925 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be285ab8350116931efe0001dc178de') in 0.052070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.996240 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23f677d9433ef29b07684f88e10429c') in 0.032943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.580685 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee154dc4ad2f32db94ad25a32e4f29e2') in 0.076625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.013068 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ca90b89fc31360c6a26f803c9e56af') in 0.036235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.974426 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd079bc7111dba44b8f4054947ea3bd16') in 0.045564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.031536 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86e5605cae85514579ece689bf16d05') in 0.031859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.452587 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdbb12ee66d5b2a202e319f1e2b0bc3') in 0.048043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.289146 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10034ca252b1f9d9ae1915fbeb8751ca') in 0.028180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.635263 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a326a09b52c5252c6adb23543aaca5') in 0.044403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.477204 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3303618d6388f7248257823e44567c') in 0.026869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.426114 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4678eae7d4fbd3823924383d3aa95641') in 0.084194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.871790 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f265192e79bf29742d5959b3ad24e64') in 0.047334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.682371 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171e1b6704dc9ae00ab41969a83244b5') in 0.032304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.977651 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf38e4418b8a37b8f9ef64dc287dc6c') in 0.033883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.961114 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022ccc6bb9adae7da55af52053a6f80a') in 0.037672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.890763 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc0c858c3a1c667efb4ef4e804222d') in 0.034055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.993459 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c654af7e5f34325b801277746bdaad4') in 0.061979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.526312 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0392fa29a1a4f5ed2fbdb9053e7730c8') in 0.049988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.169465 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d1e7dafd1282586f1e184d8c0f8a37') in 0.096142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.607466 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb40f28f8683314bf2cd494a54d1f0b5') in 0.094109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.135092 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372ce828c1e0b92e6fe77b6bbe44806f') in 0.055223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.121512 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c92ad9a1432f6feec3fa0a5620a1a41') in 0.037455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.724192 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87018724dc106405a6cca732be45b0f') in 0.074978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.835802 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe716a0cd96952bae366dc098aaa903') in 0.028461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.190526 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cbcc545e355fa6dc4d88bc8a0e3bb8') in 0.058947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.017145 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25c8e265e4f58146f7091f84f58190f') in 0.045883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.871995 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df67f20296265b8850c3909a661e9b9c') in 0.072478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.789272 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38857e46ea65339fdce86c94b87d2541') in 0.031905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.290023 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa95602c0a3bbdb35bfd37cfc0d3bd1') in 0.032308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.169256 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d75d5eee38f6654ec0fcb9532abd3') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.623244 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc35d5e0639d7594db43033b7d1c75a8') in 0.175543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.764410 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a1b188c2dca2e7b69324a2cd153efe') in 0.151684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.600314 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c841f0f2e4c425a0ef4c8ef4f5f8ccf8') in 0.067823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.526549 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9029b272dfb1e141730bb6da2d1e1af8') in 0.033845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.943618 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a309238e330f42067464cce75357003a') in 0.035171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.310555 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e9565dd8b3d2f6f2094e12ddd378dc') in 0.041260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.098713 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffe3f64ca72c2a30182effb685b3556') in 0.260156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.106689 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef3a0625696a80b645433b1f39f3d04') in 0.042898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.568944 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af4886b5cc4b67b07853c17af3ad74') in 0.052440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.349527 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf429ace6752279a066ba50bb455a79') in 0.034132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.632050 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86f34a129d38eed2228fedf729ea4b4') in 0.102674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.853686 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f7b426c5fb876f0f7e47145f85893d') in 0.044336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.068723 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf59414a2bdab62699a88aa4f95bbf2') in 0.068420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.089761 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dbadc4d0c4caf096948fc3702c4c74') in 0.035565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.937870 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676f90f360c767fb54703280ed3352e3') in 0.063715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.335018 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b823aa47718c1dcd2c395f8c842303') in 0.078305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.667127 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697af5abd235b5b2615b947e88c3583d') in 0.089917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.184469 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4b86a59a280debba5b7c8fe31479ec') in 0.033890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.444832 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acb88cf1060a130e65c2c2fba4f6f11') in 0.065641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.699352 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af3bd3792c8a8a22d43eeee667678a') in 0.040598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.009292 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f75ab99675f079fbac66e47d8cc726e') in 0.082721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.787676 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b804a549b8ea47f3ed2eab28e2ef5fad') in 0.209045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.340971 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4062a38c311a3d8c14cc1d10138d4') in 0.100706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.587752 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22585b652d5d996673cd9354c6a6aabb') in 0.032007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.762052 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828e71418b4c340e365d514ede2e694d') in 0.223112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.924434 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c0fb11ceeb360732a31dac8d0776a') in 0.036768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.930564 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dbe0fdb8eee2939f9c169c0a548aad') in 0.194811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.923876 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f22ed492d685b4617ca3b852d3b4012') in 0.033026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.582822 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1776cf191749a9e0fc7984b6aefc5a25') in 0.063289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.089615 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf9d781bbcdc1d84fba9ecc558e3135') in 0.173539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.167947 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299d764c02f99c2761ef601338bde813') in 0.051290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.330250 seconds.
+  path: Assets/AI/Prefabs/Ambulance 1.prefab
+  artifactKey: Guid(7b5533a1982de754e8e09240cffb147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Prefabs/Ambulance 1.prefab using Guid(7b5533a1982de754e8e09240cffb147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3cc047d2a090ccde5df9f097160f76') in 0.452126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AI/Prefabs/Police 1.prefab
+  artifactKey: Guid(ae487371bb18c9f44bea98139f61c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Prefabs/Police 1.prefab using Guid(ae487371bb18c9f44bea98139f61c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0b313a7a214c2902a7157247594c27') in 0.252907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.465428 seconds.
+  path: Assets/AI/TrafficLight/TrafficLight.prefab
+  artifactKey: Guid(1dc4954ad3a24574f8d58e9160e1ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/TrafficLight/TrafficLight.prefab using Guid(1dc4954ad3a24574f8d58e9160e1ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74f8c32bec4835b4cef4c7369a7ba35') in 0.373912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AI/TrafficLight/TrafficLightGreen.mat
+  artifactKey: Guid(b86fe21294576ee44a11b64d1f6a8a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/TrafficLight/TrafficLightGreen.mat using Guid(b86fe21294576ee44a11b64d1f6a8a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dade1ef2de7150815a03de3d5732b06') in 0.749842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AI/TrafficLight/TrafficLightYellow.mat
+  artifactKey: Guid(47f5d803168757c4fae6aa8fd72330e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/TrafficLight/TrafficLightYellow.mat using Guid(47f5d803168757c4fae6aa8fd72330e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1770e2c4711090b1f0740401efd51601') in 0.032134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AI/TrafficLight/TrafficLightRed.mat
+  artifactKey: Guid(916127851d2fda944ae335c763cb3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/TrafficLight/TrafficLightRed.mat using Guid(916127851d2fda944ae335c763cb3721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef33efb68a22a4a1380e43faa00d32a') in 0.014595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 915.604356 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab
+  artifactKey: Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/Junction.prefab using Guid(5fecbd8490d30874a9b5a6fd1aa2aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887b07d0dea0fadfe8fd09dc937cbbd3') in 2.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.284774 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415c9c9120378da346b49e247475ac7e') in 0.064853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.282533 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3900390cef59342b3e8ee58de3e1e4d8') in 0.113084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.436768 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9f40a3dbd53041e35aea2a5872807') in 0.089210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.698745 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cec43439f06bc9930050b6533d91cda') in 0.083882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.600341 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d89d695def653dc6cf11d941fe4b3') in 0.054049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.759766 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471fb3043448f07a839fa8afaf680062') in 0.031041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.795116 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfae56aadc8f14379989551e74cd8ea5') in 0.072881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.935235 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245cb562be3c1bb3164b58b7a0877d6a') in 0.035262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.193599 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb53a2eaac1952ed09e328dbde682dd') in 0.040698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.161654 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d70a758c03dfac0aee761f80e22881f') in 0.224587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.324039 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461f8f7537b5c1e97621af6be385c4b4') in 0.041595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.053899 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87df088d036558f911302c865e73831a') in 0.039452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.365212 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a30540f534b86eadb8a3deb5a859c') in 0.033656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.963184 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b3eb20d45212f0af3726372fc5cc2c') in 0.071591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.393091 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e0869079b1f55fe9cae67ea55f037a') in 0.086040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.184108 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ac1541b6056a6edf1cf6fdaad9ce95') in 0.036323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.945632 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63be72a006a65dc52e4e3ac755871b4') in 0.078586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.818083 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa36a4d57a40aa9f3f5a5d1406494fc') in 0.127512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.865883 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a0253f7a31513aec82c22fe303159e') in 0.084931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.744739 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea71ac60f2ac3c8e4cce59e91ce259') in 0.159851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.376397 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439ee5d9556dae66e6bec0cec776fe95') in 0.056594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.230423 seconds.
+  path: Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab
+  artifactKey: Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI/Traffic System/Navigation Prefabs/T-Junction.prefab using Guid(1585c81b26c5d864a98725c6058e74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53462a2d0e40e224341ee3f6c4dc61e') in 0.043627 seconds 
