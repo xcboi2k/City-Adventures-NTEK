@@ -36,8 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bike\Packages\Simple Bicycle Physics\Editor\CyclistSetup.cs" />
-     <Compile Include="Assets\Bike\Packages\Simple Bicycle Physics\Editor\SaveBicycleReplay.cs" />
+     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
