@@ -19,7 +19,7 @@ public class TrafficSystemScript : MonoBehaviour
 
     public bool drawGizmos = false;
 	public GameObject pedestrianPrefab;	
-	public GameObject vehiclePrefab; 
+	public GameObject[] vehiclePrefab; 
 	public Transform pool;	
 	public bool spawnOnStart = true;
 	public int maxRoadVehicles = 100;
@@ -67,7 +67,9 @@ public class TrafficSystemScript : MonoBehaviour
 				SpawnRoadVehicle(false);
 			return;
 		}
-		VehicleAIScript newVehicle = Instantiate(vehiclePrefab, spawn.spawn.position, spawn.spawn.rotation, pool.transform).GetComponent<VehicleAIScript>();
+
+		int random = Random.Range(0, vehiclePrefab.Length);
+		VehicleAIScript newVehicle = Instantiate(vehiclePrefab[random], spawn.spawn.position, spawn.spawn.rotation, pool.transform).GetComponent<VehicleAIScript>();
 		newVehicle.Initialize(road, spawn.destination);
 	}
 

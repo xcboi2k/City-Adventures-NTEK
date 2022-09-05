@@ -278,7 +278,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drawGizmos: 0
   pedestrianPrefab: {fileID: 8093665468425084920, guid: 7f7d10bfcb161cc4ca5918c879869c6d, type: 3}
-  vehiclePrefab: {fileID: 6880241878869810336, guid: 7b5533a1982de754e8e09240cffb147e, type: 3}
+  vehiclePrefab:
+  - {fileID: 6880241878869810336, guid: 7b5533a1982de754e8e09240cffb147e, type: 3}
+  - {fileID: 463159973256271452, guid: ae487371bb18c9f44bea98139f61c424, type: 3}
+  - {fileID: 7118762931400538822, guid: e720224bcc525fc4c8ba1df43bfe21c1, type: 3}
   pool: {fileID: 1339545684}
   spawnOnStart: 1
   maxRoadVehicles: 100
@@ -1671,7 +1674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &151647627
 Transform:
   m_ObjectHideFlags: 0
@@ -15214,7 +15217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1475406336
 Transform:
   m_ObjectHideFlags: 0
