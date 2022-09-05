@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\AI\Scripts\CarAI Script\NextWaypointScript.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerInputCarScript.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerCarCameraScript.cs" />
      <Compile Include="Assets\AI\Scripts\CarControllerScript.cs" />
@@ -46,8 +47,34 @@
      <Compile Include="Assets\AI\Scripts\CarSpawnerScript.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\cameraFollow.cs" />
      <Compile Include="Assets\AI\Scripts\CarAI Script\SpawnCarScript.cs" />
-     <Compile Include="Assets\AI\Scripts\CarAI Script\NextWaypointScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Waypoint Scripts\NodeScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Waypoint Scripts\SortWayScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Waypoint Scripts\SortPathScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Waypoint Scripts\VehiclePathScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Waypoint Scripts\WaysControlScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Vehicle Script\AIVehicleScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\AIControllerScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\CreateAIScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\DestroyAIScript.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Scripts\LeanClassPool.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Examples\Scripts\LeanMarker.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Scripts\LeanPool.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Examples\Scripts\LeanPooledRigidbody.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Examples\Scripts\LeanDocumentation.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Examples\Scripts\LeanOpenUrl.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Examples\Scripts\LeanCircuit.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Examples\Scripts\LeanPooledRigidbody2D.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Scripts\LeanHelper.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Scripts\IPoolable.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Pool\Scripts\LeanGameObjectPool.cs" />
+     <Compile Include="Assets\AI\Scripts V2\Lean\Common\Scripts\LeanInspector.cs" />
+     <Compile Include="Assets\AI\Scripts V2\GizmoObjectScript.cs" />
+     <None Include="Assets\AI\Scripts V2\Lean\Common\Examples\Fonts\OFL.txt" />
+     <None Include="Assets\AI\Scripts V2\Lean\Common\Examples\Shaders\Object.shader" />
+     <None Include="Assets\AI\Scripts V2\Lean\Common\Examples\Shaders\Skybox.shader" />
+     <None Include="Assets\AI\Scripts V2\Lean\READ ME.txt" />
      <None Include="Assets\Packages\Simple_Town\Materials\2_sided.shader" />
+     <None Include="Assets\AI\Scripts V2\Lean\Common\Examples\Shaders\Alpha.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
