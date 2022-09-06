@@ -8,6 +8,8 @@ TagManager:
   - Unit
   - WaitZone
   - Gib
+  - Road
+  - Sidewalk
   layers:
   - Default
   - TransparentFX
