@@ -8,6 +8,9 @@ TagManager:
   - Unit
   - WaitZone
   - Gib
+  - Point A Car
+  - Point B Car
+  - Coin
   layers:
   - Default
   - TransparentFX
