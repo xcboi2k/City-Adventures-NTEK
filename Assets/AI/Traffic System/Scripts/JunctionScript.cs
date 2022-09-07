@@ -62,6 +62,8 @@ public class JunctionScript : RoadScript
 		public WaitZoneScript[] negativeZones;
 		public TrafficLightScript[] positiveLights;
 		public TrafficLightScript[] negativeLights;
+		public GameObject[] positiveCrossings;
+		public GameObject[] negativeCrossings;
 
 		public void Enable()
 		{
@@ -73,6 +75,13 @@ public class JunctionScript : RoadScript
 				zone.canPass = false;
 			foreach(TrafficLightScript light in negativeLights)
 				light.SetLight(false);
+			
+			foreach(GameObject crossings in positiveCrossings){
+				crossings.SetActive(true);
+			}
+			foreach(GameObject crossings in negativeCrossings){
+				crossings.SetActive(false);
+			}
 		}
 
 		public void End()

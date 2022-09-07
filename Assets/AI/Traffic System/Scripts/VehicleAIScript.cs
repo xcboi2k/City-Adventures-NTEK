@@ -58,7 +58,7 @@ public class VehicleAIScript : AgentScript
 
     private bool m_Blocked;
 
-	private float m_BlockedDistance = .25f;
+	private float m_BlockedDistance = .5f;
 	public float blockedDistance
 	{
 		get { return m_BlockedDistance; }
