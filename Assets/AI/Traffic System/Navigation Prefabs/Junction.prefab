@@ -1575,12 +1575,12 @@ GameObject:
   - component: {fileID: 4698080058059296334}
   - component: {fileID: 3596043018819419132}
   m_Layer: 0
-  m_Name: CanCross
+  m_Name: CanCross1
   m_TagString: Sidewalk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8836575137069857066
 Transform:
   m_ObjectHideFlags: 0
@@ -1624,7 +1624,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b86fe21294576ee44a11b64d1f6a8a9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2004,12 +2004,12 @@ GameObject:
   - component: {fileID: 2650444511116531355}
   - component: {fileID: 1152046390894209088}
   m_Layer: 0
-  m_Name: CanCross
+  m_Name: CanCross4
   m_TagString: Sidewalk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2732207140293378709
 Transform:
   m_ObjectHideFlags: 0
@@ -2053,7 +2053,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b86fe21294576ee44a11b64d1f6a8a9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2633,12 +2633,12 @@ GameObject:
   - component: {fileID: 1813168985148370700}
   - component: {fileID: 6642164990548306402}
   m_Layer: 0
-  m_Name: NoCross
+  m_Name: NoCross1
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2137113510382763200
 Transform:
   m_ObjectHideFlags: 0
@@ -2682,7 +2682,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 916127851d2fda944ae335c763cb3721, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3476,12 +3476,12 @@ GameObject:
   - component: {fileID: 6011288718833029453}
   - component: {fileID: 4432573249705982899}
   m_Layer: 0
-  m_Name: NoCross
+  m_Name: NoCross3
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4748237913674505225
 Transform:
   m_ObjectHideFlags: 0
@@ -3525,7 +3525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 916127851d2fda944ae335c763cb3721, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3920,12 +3920,12 @@ GameObject:
   - component: {fileID: 8420256017174750456}
   - component: {fileID: 2344611840080491496}
   m_Layer: 0
-  m_Name: CanCross
+  m_Name: CanCross2
   m_TagString: Sidewalk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &273877488148611175
 Transform:
   m_ObjectHideFlags: 0
@@ -3969,7 +3969,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b86fe21294576ee44a11b64d1f6a8a9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4453,12 +4453,12 @@ GameObject:
   - component: {fileID: 8104409637899314170}
   - component: {fileID: 4190150066506478712}
   m_Layer: 0
-  m_Name: NoCross
+  m_Name: NoCross2
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &624862404648925189
 Transform:
   m_ObjectHideFlags: 0
@@ -4502,7 +4502,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 916127851d2fda944ae335c763cb3721, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5140,12 +5140,12 @@ GameObject:
   - component: {fileID: 6672653646464413111}
   - component: {fileID: 3463920607427854867}
   m_Layer: 0
-  m_Name: CanCross
+  m_Name: CanCross3
   m_TagString: Sidewalk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &242547297139700843
 Transform:
   m_ObjectHideFlags: 0
@@ -5153,9 +5153,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7975167547870967151}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.43, y: 1.15, z: 0}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.4}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.4299995, y: 1.15, z: -0}
+  m_LocalScale: {x: 0.10000001, y: 1, z: 0.40000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4736946540352437135}
@@ -5189,7 +5189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b86fe21294576ee44a11b64d1f6a8a9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5390,12 +5390,12 @@ GameObject:
   - component: {fileID: 5331463445126427026}
   - component: {fileID: 7833731340165741320}
   m_Layer: 0
-  m_Name: NoCross
+  m_Name: NoCross4
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1560366204283911151
 Transform:
   m_ObjectHideFlags: 0
@@ -5439,7 +5439,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 916127851d2fda944ae335c763cb3721, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5942,15 +5942,15 @@ MonoBehaviour:
     - {fileID: 524313366770127629}
     - {fileID: 1243470575342092027}
     positiveCrossings:
-    - {fileID: 2785568585960411973}
-    - {fileID: 6164195686194164899}
-    - {fileID: 5211328649628746568}
-    - {fileID: 8456174287509519145}
-    negativeCrossings:
     - {fileID: 3873969113269022644}
     - {fileID: 5633812903902233447}
     - {fileID: 7975167547870967151}
     - {fileID: 3477229703970705504}
+    negativeCrossings:
+    - {fileID: 2785568585960411973}
+    - {fileID: 6164195686194164899}
+    - {fileID: 5211328649628746568}
+    - {fileID: 8456174287509519145}
   - positiveZones:
     - {fileID: 7868668173047920037}
     negativeZones:
@@ -5972,15 +5972,15 @@ MonoBehaviour:
     - {fileID: 1603249755932659800}
     - {fileID: 1243470575342092027}
     positiveCrossings:
-    - {fileID: 5633812903902233447}
-    - {fileID: 3873969113269022644}
-    - {fileID: 5211328649628746568}
-    - {fileID: 8456174287509519145}
-    negativeCrossings:
     - {fileID: 6164195686194164899}
     - {fileID: 2785568585960411973}
     - {fileID: 7975167547870967151}
     - {fileID: 3477229703970705504}
+    negativeCrossings:
+    - {fileID: 5633812903902233447}
+    - {fileID: 3873969113269022644}
+    - {fileID: 5211328649628746568}
+    - {fileID: 8456174287509519145}
   - positiveZones:
     - {fileID: 2748685728890733036}
     negativeZones:
@@ -6002,15 +6002,15 @@ MonoBehaviour:
     - {fileID: 1603249755932659800}
     - {fileID: 1243470575342092027}
     positiveCrossings:
-    - {fileID: 3477229703970705504}
-    - {fileID: 3873969113269022644}
-    - {fileID: 6164195686194164899}
-    - {fileID: 5211328649628746568}
-    negativeCrossings:
     - {fileID: 8456174287509519145}
     - {fileID: 2785568585960411973}
     - {fileID: 5633812903902233447}
     - {fileID: 7975167547870967151}
+    negativeCrossings:
+    - {fileID: 3477229703970705504}
+    - {fileID: 3873969113269022644}
+    - {fileID: 6164195686194164899}
+    - {fileID: 5211328649628746568}
   - positiveZones:
     - {fileID: 139827513219794343}
     negativeZones:
@@ -6032,15 +6032,15 @@ MonoBehaviour:
     - {fileID: 524313366770127629}
     - {fileID: 1603249755932659800}
     positiveCrossings:
-    - {fileID: 7975167547870967151}
-    - {fileID: 3873969113269022644}
-    - {fileID: 6164195686194164899}
-    - {fileID: 8456174287509519145}
-    negativeCrossings:
     - {fileID: 5211328649628746568}
     - {fileID: 2785568585960411973}
     - {fileID: 5633812903902233447}
     - {fileID: 3477229703970705504}
+    negativeCrossings:
+    - {fileID: 7975167547870967151}
+    - {fileID: 3873969113269022644}
+    - {fileID: 6164195686194164899}
+    - {fileID: 8456174287509519145}
   - positiveZones:
     - {fileID: 7726830909768872940}
     - {fileID: 2818171756912223985}

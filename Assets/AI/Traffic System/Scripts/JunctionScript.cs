@@ -80,7 +80,7 @@ public class JunctionScript : RoadScript
 				crossings.SetActive(true);
 			}
 			foreach(GameObject crossings in negativeCrossings){
-				crossings.SetActive(true);
+				crossings.SetActive(false);
 			}
 		}
 
