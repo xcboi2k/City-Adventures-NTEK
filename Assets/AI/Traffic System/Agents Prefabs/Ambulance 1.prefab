@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 5127383133557166170}
   - component: {fileID: 909921267676825198}
   - component: {fileID: 3645412387201722206}
+  - component: {fileID: 1090478393060041686}
   m_Layer: 0
   m_Name: Ambulance 1
   m_TagString: Gib
@@ -256,7 +257,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6880241878869810336}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 5}
@@ -298,6 +299,18 @@ MonoBehaviour:
   type: 1
   maxSpeed: 200
   front: {fileID: 2743763174990510782}
+--- !u!114 &1090478393060041686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880241878869810336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a47e20a855f3a942a1657ff7dc2542b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2442275931289327764
 PrefabInstance:
   m_ObjectHideFlags: 0

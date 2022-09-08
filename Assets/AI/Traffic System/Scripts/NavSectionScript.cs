@@ -10,6 +10,8 @@ public class NavSectionScript : MonoBehaviour
 	public NavConnectionScript[] connections;
 	public int speedLimit = 20;
 
+	private int spawnRepeat = 2;
+
     public virtual void Start()
 	{
 		foreach(NavConnectionScript connection in connections)
@@ -19,11 +21,11 @@ public class NavSectionScript : MonoBehaviour
     public bool TryGetVehicleSpawn(out VehicleSpawn spawn)
 	{
 		if(m_CurrentVehicles.Count == 0 && vehicleSpawns.Length > 0)
-		{
-			int index = UnityEngine.Random.Range(0, vehicleSpawns.Length);
-			spawn = vehicleSpawns[index];
-			return true;
-		}
+			{
+				int index = UnityEngine.Random.Range(0, vehicleSpawns.Length);
+				spawn = vehicleSpawns[index];
+				return true;
+			}
 		spawn = null;
 		return false;
 	}

@@ -10,6 +10,11 @@ TagManager:
   - Gib
   - Road
   - Sidewalk
+  - CarPointA
+  - CarPointB
+  - Coin
+  - PlayerPointA
+  - PlayerPointB
   layers:
   - Default
   - TransparentFX

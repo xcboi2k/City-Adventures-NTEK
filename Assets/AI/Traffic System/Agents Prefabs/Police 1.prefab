@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -6292137668217033204}
   - component: {fileID: 1999163257617710048}
   - component: {fileID: -2192430464340487001}
+  - component: {fileID: -2761841696235463551}
   m_Layer: 0
   m_Name: Police 1
   m_TagString: Gib
@@ -65,7 +66,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463159973256271452}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 1.6, z: 4.5}
@@ -107,6 +108,18 @@ MonoBehaviour:
   type: 1
   maxSpeed: 200
   front: {fileID: 2821503655985035637}
+--- !u!114 &-2761841696235463551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463159973256271452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a47e20a855f3a942a1657ff7dc2542b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600051415125720695
 GameObject:
   m_ObjectHideFlags: 0
