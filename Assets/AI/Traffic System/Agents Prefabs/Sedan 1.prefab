@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 6436434910630077766}
   - component: {fileID: 6760871695058215541}
   - component: {fileID: 714557796127832869}
+  - component: {fileID: 5338929777781284735}
   m_Layer: 0
   m_Name: Sedan 1
   m_TagString: Gib
@@ -192,7 +193,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7118762931400538822}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 1.6, z: 4.5}
@@ -234,6 +235,18 @@ MonoBehaviour:
   type: 1
   maxSpeed: 200
   front: {fileID: 4435323971214571973}
+--- !u!114 &5338929777781284735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118762931400538822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a47e20a855f3a942a1657ff7dc2542b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7742527936716524700
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,13 +23,4 @@ public class NavConnectionScript : MonoBehaviour
 		}
 		return null;
 	}
-
-    // private void OnDrawGizmos()
-	// {
-	// 	if(TrafficSystemScript.Instance.drawGizmos)
-	// 	{
-	// 		Gizmos.color = Color.white;
-	// 		Gizmos.DrawSphere(transform.position - new Vector3(0, transform.localScale.y * 0.5f, 0), 0.05f);
-	// 	}
-	// }
 }
