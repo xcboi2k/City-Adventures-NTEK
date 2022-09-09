@@ -368,11 +368,16 @@
 "Assets/NavMeshComponents/Scripts/NavMeshModifier.cs"
 "Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs"
 "Assets/NavMeshComponents/Scripts/NavMeshSurface.cs"
-"Assets/Scripts/Camera Scripts/cameraFollow.cs"
-"Assets/Scripts/CoinPath/CoinWalk.cs"
-"Assets/Scripts/Path/PointPathScript.cs"
-"Assets/Walking/Scripts/CharacterIK.cs"
-"Assets/Walking/Scripts/CharacterMovement.cs"
+"Assets/Options/Kickboard/Scripts/Cameraa.cs"
+"Assets/Options/Kickboard/Scripts/KickboardMoveScript.cs"
+"Assets/Options/Kickboard/Scripts/PlayerMove.cs"
+"Assets/Options/Kickboard/Scripts/ThirdPersonCamera.cs"
+"Assets/Options/Kickboard/Scripts/ThirdPersonController.cs"
+"Assets/Options/Scripts/Camera Scripts/cameraFollow.cs"
+"Assets/Options/Scripts/CoinPath/CoinWalk.cs"
+"Assets/Options/Scripts/Path/PointPathScript.cs"
+"Assets/Options/Walking/Scripts/CharacterIK.cs"
+"Assets/Options/Walking/Scripts/CharacterMovement.cs"
 -langversion:9.0
 
 /deterministic
