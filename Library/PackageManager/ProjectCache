@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637970024421855301
+      ticks: 637982866848151007
     m_Hash: 3611920377
   m_LockFileStatus:
     m_FilePath: E:/Unity Trials/City-Adventures-NTEK/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637970024421860629
+      ticks: 637982866850402415
     m_Hash: 3793744847
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

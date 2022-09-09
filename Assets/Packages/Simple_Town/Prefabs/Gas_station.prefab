@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4869578509840562}
   - component: {fileID: 33972166398058984}
   - component: {fileID: 23508987771616486}
-  - component: {fileID: -403792542736726073}
+  - component: {fileID: 8338254472955479218}
   m_Layer: 0
   m_Name: Gas_station
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-403792542736726073
-BoxCollider:
+--- !u!64 &8338254472955479218
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 12.000009, y: 2.8967671, z: 11.991043}
-  m_Center: {x: -0.000002861023, y: 1.3686192, z: 0.004478693}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 819f35f18f4d00140ac7c0617f6e8e03, type: 3}
