@@ -19,5 +19,17 @@ public class PlayerCarColScript : MonoBehaviour
         if(Col.gameObject.tag == "Coin"){
             Debug.Log("Coin added to score.");
         }
+
+        if(Col.gameObject.tag == "Sidewalk"){
+            Debug.Log("Don't drive on sidewalks.");
+        }
+
+        if(Col.gameObject.tag == "Gib"){
+            Debug.Log("You hit a car.");
+        }
+
+        if(Col.gameObject.tag == "Unit"){
+            Debug.Log("You hit a ped.");
+        }
     }  
 }

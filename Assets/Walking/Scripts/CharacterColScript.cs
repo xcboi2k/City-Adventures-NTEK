@@ -19,5 +19,12 @@ public class CharacterColScript : MonoBehaviour
         if(Col.gameObject.tag == "Coin"){
             Debug.Log("Coin added to score.");
         }
+        if(Col.gameObject.tag == "Road"){
+            Debug.Log("Why walking in the road?");
+        }
+
+        if(Col.gameObject.tag == "Gib"){
+            Debug.Log("You are bumped by a car.");
+        }
     }  
 }

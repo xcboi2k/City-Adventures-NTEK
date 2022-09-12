@@ -73,7 +73,7 @@ public class VehicleAIScript : AgentScript
 		{
 			if(Vector3.Distance(front.position, hit.point) < m_BlockedDistance)
 			{
-				if(hit.transform.tag == "Gib" || hit.transform.tag == "Unit")
+				if(hit.transform.tag == "Gib" || hit.transform.tag == "Unit" || hit.transform.tag == "PlayerCar")
 					return true;
 			}
 			return false;

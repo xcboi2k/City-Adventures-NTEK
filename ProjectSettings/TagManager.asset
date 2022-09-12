@@ -15,6 +15,7 @@ TagManager:
   - Coin
   - PlayerPointA
   - PlayerPointB
+  - PlayerCar
   layers:
   - Default
   - TransparentFX
