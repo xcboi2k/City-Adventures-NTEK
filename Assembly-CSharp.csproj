@@ -39,30 +39,26 @@
      <Compile Include="Assets\Car\Scripts\PlayerInputCarScript.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerCarCameraScript.cs" />
      <Compile Include="Assets\AI\Scripts\CarControllerScript.cs" />
+     <Compile Include="Assets\Car\Scripts\PlayerCarColScript.cs" />
      <Compile Include="Assets\Car\Scripts\PlayerCarScript.cs" />
      <Compile Include="Assets\Walking\Scripts\CharacterIK.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\JunctionScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\TrafficLightScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\JunctionTriggerScript.cs" />
-     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
      <Compile Include="Assets\Walking\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\TrafficSystemScript.cs" />
-     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\NavSectionScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\RoadScript.cs" />
-     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+     <Compile Include="Assets\AI\Scripts\AIVehicleColScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\NavConnectionScript.cs" />
+     <Compile Include="Assets\Walking\Scripts\CharacterColScript.cs" />
+     <Compile Include="Assets\Scripts\Spawn Observer Scripts\SpawnObserverScript.cs" />
      <Compile Include="Assets\AI\Scripts\CarSpawnerScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\VehicleAIScript.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\WaitZoneScript.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\cameraFollow.cs" />
      <Compile Include="Assets\AI\Traffic System\Scripts\AgentScript.cs" />
-     <Compile Include="Assets\Car\Scripts\PlayerCarColScript.cs" />
-     <Compile Include="Assets\Walking\Scripts\CharacterColScript.cs" />
-     <Compile Include="Assets\AI\Scripts\AIVehicleColScript.cs" />
      <Compile Include="Assets\AI\Scripts\AIPedColScript.cs" />
-     <Compile Include="Assets\Scripts\Spawn Observer Scripts\SpawnObserverScript.cs" />
      <None Include="Assets\Packages\Simple_Town\Materials\2_sided.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -759,6 +755,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
