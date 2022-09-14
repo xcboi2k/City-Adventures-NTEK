@@ -73,7 +73,7 @@ public class VehicleAIScript : AgentScript
 		{
 			if(Vector3.Distance(front.position, hit.point) < m_BlockedDistance)
 			{
-				if(hit.transform.tag == "Gib" || hit.transform.tag == "Unit")
+				if(hit.transform.tag == "Gib" || hit.transform.tag == "Unit" || hit.transform.tag == "PlayerCar")
 					return true;
 			}
 			return false;
@@ -92,22 +92,4 @@ public class VehicleAIScript : AgentScript
 		if(m_CurrentOutConnection != null)
 			agent.destination = m_CurrentOutConnection.transform.position;
 	}
-
-    // public override void OnDrawGizmos()
-	// {
-	// 	if(TrafficSystem.Instance.drawGizmos)
-	// 	{
-	// 		Gizmos.color = CheckStop() ? Color.gray : Color.white;
-	// 		if(agent.hasPath)
-	// 		{	
-	// 			Gizmos.DrawWireSphere(agent.destination, 0.1f);
-	// 			for (int i = 0; i < agent.path.corners.Length - 1; i++)
-	// 				Gizmos.DrawLine(agent.path.corners[i], agent.path.corners[i + 1]);
-	// 		}
-
-	// 		Gizmos.color = m_Blocked ? Color.red : Color.green;
-	// 		Vector3 blockedRayEnd = front.TransformPoint(new Vector3(0, 0, m_BlockedDistance));
-	// 		Gizmos.DrawLine(front.position, blockedRayEnd);
-	// 	}
-	// }
 }

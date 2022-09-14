@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54836328846793023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.582, y: 2.4960003, z: -0.16}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -1.582, y: 2.4960003, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -335,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 747399430646839747}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 4.002, y: 1.14, z: 2.48}
-  m_LocalScale: {x: 0.5, y: 1, z: 0.08}
+  m_LocalScale: {x: 0.4, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3569661599223260530}
@@ -550,8 +550,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150039766619024078}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.87, y: 2.4960003, z: 4.53}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -0.99, y: 2.4960003, z: 4.53}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -1468,7 +1468,7 @@ Transform:
   m_GameObject: {fileID: 2319336948981964313}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -1.16, y: 1.14, z: 2.48}
-  m_LocalScale: {x: 0.5, y: 1, z: 0.08}
+  m_LocalScale: {x: 0.4, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3569661599223260530}
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 3596043018819419132}
   m_Layer: 0
   m_Name: CanCross1
-  m_TagString: Sidewalk
+  m_TagString: Cross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2100,7 +2100,7 @@ GameObject:
   - component: {fileID: 1152046390894209088}
   m_Layer: 0
   m_Name: CanCross4
-  m_TagString: Sidewalk
+  m_TagString: Cross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2211,8 +2211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3487014050476903981}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.8719997, y: 2.4960003, z: 0.53800005}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -0.99199957, y: 2.4960003, z: 0.53800005}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -2534,8 +2534,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3628333775521442520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.576, y: 2.4960003, z: -0.16}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -5.576, y: 2.4960003, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -2729,7 +2729,7 @@ GameObject:
   - component: {fileID: 6642164990548306402}
   m_Layer: 0
   m_Name: NoCross1
-  m_TagString: Road
+  m_TagString: NoCross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2840,7 +2840,7 @@ Transform:
   m_GameObject: {fileID: 3946827567425871902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.42, y: 1.14, z: 5.11}
-  m_LocalScale: {x: 0.5, y: 1, z: 0.08}
+  m_LocalScale: {x: 0.4, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3569661599223260530}
@@ -3342,8 +3342,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4752568300817616585}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -6.251, y: 2.4960003, z: 4.531}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -6.168, y: 2.4960003, z: 4.531}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -3572,7 +3572,7 @@ GameObject:
   - component: {fileID: 4432573249705982899}
   m_Layer: 0
   m_Name: NoCross3
-  m_TagString: Road
+  m_TagString: NoCross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3683,7 +3683,7 @@ Transform:
   m_GameObject: {fileID: 5289246402163911572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.42, y: 1.14, z: -0.04}
-  m_LocalScale: {x: 0.5, y: 1, z: 0.08}
+  m_LocalScale: {x: 0.4, y: 1, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3569661599223260530}
@@ -4016,7 +4016,7 @@ GameObject:
   - component: {fileID: 2344611840080491496}
   m_Layer: 0
   m_Name: CanCross2
-  m_TagString: Sidewalk
+  m_TagString: Cross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4225,8 +4225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5688968933671641107}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.576, y: 2.4960003, z: 5.23}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -5.576, y: 2.4960003, z: 5.08}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -4549,7 +4549,7 @@ GameObject:
   - component: {fileID: 4190150066506478712}
   m_Layer: 0
   m_Name: NoCross2
-  m_TagString: Road
+  m_TagString: NoCross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4914,8 +4914,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7458280502631511790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.582, y: 2.4960003, z: 5.23}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -1.582, y: 2.4960003, z: 5.08}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}
@@ -5236,7 +5236,7 @@ GameObject:
   - component: {fileID: 3463920607427854867}
   m_Layer: 0
   m_Name: CanCross3
-  m_TagString: Sidewalk
+  m_TagString: Cross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5486,7 +5486,7 @@ GameObject:
   - component: {fileID: 7833731340165741320}
   m_Layer: 0
   m_Name: NoCross4
-  m_TagString: Road
+  m_TagString: NoCross
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5652,8 +5652,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8591244847843922273}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -6.253, y: 2.4960003, z: 0.539}
-  m_LocalScale: {x: 0.2, y: 0.5, z: 1.2}
+  m_LocalPosition: {x: -6.17, y: 2.4960003, z: 0.539}
+  m_LocalScale: {x: 0.2, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350039915387867227}

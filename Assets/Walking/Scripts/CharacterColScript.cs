@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class CharacterColScript : MonoBehaviour
 {
+    private void OnCollisionEnter(Collision Col) {
+        if (Col.gameObject.tag == "Gib"){
+            Debug.Log("Look at incoming vehicles.");
+        }
+    }
+
     private void OnTriggerEnter(Collider Col)
     {
         if (Col.gameObject.tag == "PlayerPointA")
@@ -18,6 +24,14 @@ public class CharacterColScript : MonoBehaviour
 
         if(Col.gameObject.tag == "Coin"){
             Debug.Log("Coin added to score.");
+        }
+
+        if(Col.gameObject.tag == "Road"){
+            Debug.Log("Why are you on the road?");
+        }
+
+        if(Col.gameObject.tag == "NoCross"){
+            Debug.Log("No Jaywalking");
         }
     }  
 }
