@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4602347004850436}
   - component: {fileID: 33726519964370186}
   - component: {fileID: 23223135291781668}
-  - component: {fileID: 5875630342862090688}
+  - component: {fileID: 8153977278094122547}
   m_Layer: 0
   m_Name: Road_fence
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5875630342862090688
-MeshCollider:
+--- !u!65 &8153977278094122547
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 75f2445fb8701be4994a87d152ecbeb0, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.1340888, y: 0.66872984, z: 0.30930567}
+  m_Center: {x: 0, y: 0.33436492, z: -0.000000014901161}
