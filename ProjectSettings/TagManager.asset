@@ -17,6 +17,7 @@ TagManager:
   - PlayerPointB
   - Cross
   - NoCross
+  - PlayerVehicle
   layers:
   - Default
   - TransparentFX

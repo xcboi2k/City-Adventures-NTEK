@@ -39,12 +39,14 @@ public class AgentScript : MonoBehaviour
 	}
 	Transform m_Destination;
 
+	public bool isWalking = false;
 	public virtual void Update()
 	{
 		if(agent.isOnNavMesh)
 		{
 			if(CheckStop())
 				agent.velocity = Vector3.zero;
+				isWalking = false;
 			CheckWaitZone();
 			if(type == TrafficType.Pedestrian)
 				TestDestination();
@@ -56,8 +58,10 @@ public class AgentScript : MonoBehaviour
 		if(m_Destination)
 		{
 			float distanceToDestination = Vector3.Distance(transform.position, m_Destination.position);
+			isWalking = true;
 			if(distanceToDestination < 1f)
 			{
+				isWalking = false;
 				m_Destination = TrafficSystemScript.Instance.GetPedestrianDestination();
 				agent.destination = m_Destination.position;
 			}
@@ -73,6 +77,7 @@ public class AgentScript : MonoBehaviour
 			{
 				if(type == TrafficType.Pedestrian)
 				{
+					isWalking = false;
 					if(CheckOppositeWAitZone(waitZone))
 						return;
 				}

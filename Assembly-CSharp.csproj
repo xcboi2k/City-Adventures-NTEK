@@ -748,17 +748,17 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation">
-        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-        <HintPath>E:\Unity Trials\City-Adventures-NTEK\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

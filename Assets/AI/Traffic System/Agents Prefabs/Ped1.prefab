@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 652441027440511082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.042, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7329597026097404021}
@@ -90,7 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 7329597026097431957}
-  characterVelocity: {x: 0, y: 0, z: 0}
 --- !u!114 &1671430344762434782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   maxSpeed: 20
+  isWalking: 0
 --- !u!65 &5202416126993360307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: aff4cbe965777db4cb0f9c3e4f04fc0a, type: 2}
+      objectReference: {fileID: 9100000, guid: 45580893f37510c4dab31b9035cd80b2, type: 2}
     - target: {fileID: 9500000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0

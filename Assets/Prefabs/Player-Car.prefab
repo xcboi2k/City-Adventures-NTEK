@@ -102,6 +102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player-Car
       objectReference: {fileID: 0}
+    - target: {fileID: 8810740924654255357, guid: 3854c6af808764244bb1762ec4a8995e, type: 3}
+      propertyPath: m_TagString
+      value: PlayerVehicle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3854c6af808764244bb1762ec4a8995e, type: 3}
 --- !u!1 &506341323047791141 stripped
@@ -160,19 +164,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1461923434579828158
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461058349142814578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.5
-  m_Center: {x: 0, y: 1, z: 0.5}
 --- !u!65 &5294235044896663778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -184,8 +175,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9211655, y: 0.1710658, z: 3.9584885}
-  m_Center: {x: -0.03219986, y: 0.4987375, z: -0.06446457}
+  m_Size: {x: 1.9211655, y: 1.9749689, z: 4.2577934}
+  m_Center: {x: -0.03219986, y: 1.4006891, z: -0.21411705}
 --- !u!114 &5294235044896663779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +199,7 @@ MonoBehaviour:
   - {fileID: 5294235044468705122}
   - {fileID: 5294235044406595355}
   strengthCoefficient: 5000
-  maxTurn: 20
+  maxTurn: 15
   CM: {fileID: 0}
   RB: {fileID: 5294235044896663776}
 --- !u!114 &5294235044896663780
@@ -237,6 +228,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab73a8d22a765da4ab584427b15fb50b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &116992022889684274
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461058349142814578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.9236178
+  m_Center: {x: 0, y: 1, z: 1.7}
 --- !u!1 &2161351631614548264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8358147889467050663, guid: 3854c6af808764244bb1762ec4a8995e, type: 3}

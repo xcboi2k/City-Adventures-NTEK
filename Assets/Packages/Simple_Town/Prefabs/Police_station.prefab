@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4616340016812998}
   - component: {fileID: 33967885734891780}
   - component: {fileID: 23549927860353832}
-  - component: {fileID: 8943430901451633699}
   m_Layer: 0
   m_Name: Box112
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8943430901451633699
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583482598722496}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 3bb040c9f26861746be1de79d703d456, type: 3}
 --- !u!1 &1873646800362560
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4994705102496024}
+  - component: {fileID: 45185509057291475}
   m_Layer: 0
   m_Name: Police_station
   m_TagString: Untagged
@@ -131,6 +117,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &45185509057291475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873646800362560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.03437, y: 6.271168, z: 12.114173}
+  m_Center: {x: 0.040855408, y: 3.2024882, z: -0.013374805}
 --- !u!1 &1891370448831978
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +141,6 @@ GameObject:
   - component: {fileID: 4508444505783242}
   - component: {fileID: 33688762001792288}
   - component: {fileID: 23074537982134276}
-  - component: {fileID: 8475729170923659350}
   m_Layer: 0
   m_Name: Plane009
   m_TagString: Untagged
@@ -215,17 +213,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8475729170923659350
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891370448831978}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 3bb040c9f26861746be1de79d703d456, type: 3}

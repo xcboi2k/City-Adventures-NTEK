@@ -303,6 +303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4628685173995096}
+  - component: {fileID: -4150430976764018331}
   m_Layer: 0
   m_Name: Building_3c
   m_TagString: Untagged
@@ -328,3 +329,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &-4150430976764018331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753556849162626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.00422, y: 7.735137, z: 6.016494}
+  m_Center: {x: 0.0034122467, y: 3.8641, z: -0.00004184246}
